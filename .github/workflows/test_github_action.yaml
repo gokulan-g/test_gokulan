@@ -16,6 +16,7 @@ jobs:
         run: echo "Guberan"
 
   my_last_job:
+    needs: [my_first_job]
     runs-on: ubuntu-latest
     steps:
       - name: Print my name
