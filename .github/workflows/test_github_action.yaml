@@ -1,0 +1,22 @@
+name: Gokulan Test GitHub Action
+on:
+  workflow_dispatch:
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my first name
+        run: echo "Gokulan"
+
+  my_second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my last name
+        run: echo "Guberan"
+
+  my_last_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print my name
+        run: echo "Gokulan Guberan"
